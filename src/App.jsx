@@ -123,14 +123,14 @@ export default function App() {
         <R as="h1" className="wob">Happy Birthday, Angel. 🎈</R>
         <R as="p" className="lead">Stay happy. Stay healthy.</R>
         <R as="p" className="sig">— BATMAN <br /><small>Powered by Claude, Batman-level dedication, and absolutely no financial budget</small></R>
-        <button className="bt" style={{ visibility: showEgg ? 'visible' : 'hidden', color: '#fff' }} onClick={() => { setStep(0); setEgg(true) }}>psst... one last thing</button>
+        <button className="bt" style={{ visibility: showEgg ? 'visible' : 'hidden' }} onClick={() => { setStep(0); setEgg(true) }}>psst... one last thing</button>
         <p className="sig tiny">© 2026 · A completely unnecessary website for a completely necessary PERSON ✦
 </p>
       </section>
     </main>
 
     <Modal open={!!lb} onClose={() => setLb(null)}>{lb && <><img src={lb.src} alt={lb.alt} /><p>{lb.cap}</p><button className="bt" onClick={() => setLb(null)}>close ✕</button></>}</Modal>
-    <Modal open={egg} onClose={() => setEgg(false)}><div className="card"><p className="big">{eggText[step]}</p>
+    <Modal open={egg} onClose={() => setEgg(false)}><div className="card egg-card"><p className="big">{eggText[step]}</p>
       <button className="bt" onClick={() => { if (step < 2) { setStep(step + 1); if (step === 1) burst(['🌸', '🤍', '✦']) } else setEgg(false) }}>{step === 0 ? 'yes 😌' : step === 1 ? 'thanks 😭' : 'close'}</button></div></Modal>
   </>)
 }
