@@ -27,10 +27,10 @@ export const friends = [
   { k: 'f3', r: 2, tag: 'animated version', title: 'ladder um lady um..', alt: 'Animated illustration of a girl and a boy in front of a yellow house', up: 1 },
 ]
 export const traits = [
-  ['😂', 'Funny', "Jokes on solomans LEVEL"],
-  ['💤', 'Height', 'tallest angel ever'],
-  ['🫠', 'MOODY MOODswing', 'Emotions on a roller coaster'],
-  ['📸', 'HEALTH GURL ', 'lifelife caugh with unconditional love'],
+  ['😂', 'Random laughter', "Sometimes the joke isn't even that funny."],
+  ['💤', 'Sleep', 'A completely legitimate life priority.'],
+  ['🫠', 'Overthinking', 'Brain.exe has entered another dimension.'],
+  ['📸', 'Photo poses', 'Arms crossed. Every. Single. Time.'],
   ['✨', 'Being Angel', 'No explanation required.'],
 ]
 export const puffyJokes = ["Hi! I'm Puffy. I live here now.", 'Beep boop. Birthday detected.', 'Bernice is the boss of this website.', 'Scroll faster. The clouds are racing.', "I'm not a bug. I'm a feature.", 'Fun fact: Batman was NOT paid for this.' , 'shivram is gay' , 'rajanithi might bee sleeping now']
