@@ -21,10 +21,10 @@ export const evidence = [
   { k: 'n3', r: 2, tag: 'Exhibit D', title: 'Reaching for the flowers.', note: 'Your honor, I have evidence.', tip: 'why do we have this photo?', alt: 'Bernice laughing, reaching toward pink bougainvillea' },
 ]
 export const friends = [
-  { k: 'f1', r: -3, tag: 'this one', title: 'Crossed arms club', alt: 'Bernice and a friend with crossed arms in front of bamboo' },
+  { k: 'f1', r: -3, tag: 'school days', title: 'Class photo', alt: 'Bernice and classmates posing together in a school group photo' },
   { k: 'f2', r: 2.5, tag: 'that day', title: 'Thumbs up x4', alt: 'Bernice and a friend both giving thumbs up', up: 1 },
   { k: 'f4', r: -1.5, tag: 'matching tees', title: 'Twinning', alt: 'Bernice with a friend in matching navy t-shirts' },
-  { k: 'f3', r: 2, tag: 'animated version', title: 'If we lived in a cartoon', alt: 'Animated illustration of a girl and a boy in front of a yellow house', up: 1 },
+  { k: 'f3', r: 2, tag: 'animated version', title: 'ladder um lady um..', alt: 'Animated illustration of a girl and a boy in front of a yellow house', up: 1 },
 ]
 export const traits = [
   ['😂', 'Random laughter', "Sometimes the joke isn't even that funny."],
@@ -33,4 +33,4 @@ export const traits = [
   ['📸', 'Photo poses', 'Arms crossed. Every. Single. Time.'],
   ['✨', 'Being Angel', 'No explanation required.'],
 ]
-export const puffyJokes = ["Hi! I'm Puffy. I live here now.", 'Beep boop. Birthday detected.', 'Bernice is the boss of this website.', 'Scroll faster. The clouds are racing.', "I'm not a bug. I'm a feature.", 'Fun fact: Batman was NOT paid for this.']
+export const puffyJokes = ["Hi! I'm Puffy. I live here now.", 'Beep boop. Birthday detected.', 'Bernice is the boss of this website.', 'Scroll faster. The clouds are racing.', "I'm not a bug. I'm a feature.", 'Fun fact: Batman was NOT paid for this.' , 'shivram is gay' , 'rajanithi might bee sleeping now']
