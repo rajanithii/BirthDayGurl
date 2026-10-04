@@ -23,7 +23,6 @@ h1,h2,h3{font-family:var(--d);font-weight:400;margin:.2em 0;line-height:1.1;lett
 .ph figcaption{padding:10px 4px 8px;font-size:15px;text-align:left}.ph b{font:400 24px var(--d);display:block}.ph em{opacity:.75}
 .ph[data-tip]:hover::after{content:attr(data-tip);position:absolute;left:50%;bottom:62px;transform:translateX(-50%);background:#3a3a46;color:#fff;font:700 20px var(--h);padding:2px 14px;border-radius:10px;white-space:nowrap}
 @media(min-width:800px){.tl .ph:nth-child(odd){align-self:flex-start;margin-left:8%}.tl .ph:nth-child(even){align-self:flex-end;margin-right:8%}}
-@media(max-width:900px){.tl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px 18px;align-items:start}.tl::before{left:50%}.tl .ph{width:min(100%,300px)}.tl .ph:nth-child(odd){justify-self:start}.tl .ph:nth-child(even){justify-self:end}}
 .row{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;margin:30px 0}.row .ph{width:min(46%,300px);margin:-8px}
 .kt{width:46px;display:block;margin:30px auto}.kt.side{float:right;width:30px;margin:0}.kk{position:absolute;pointer-events:none;width:50px;animation:kd linear infinite}@keyframes kd{from{transform:translate(-20vw,20vh) rotate(-12deg)}to{transform:translate(110vw,-30vh) rotate(14deg)}}
 .tn{display:flex;align-items:center;gap:14px;justify-content:center;flex-wrap:wrap;margin:24px 0}.tn .ph{width:min(42%,240px)}.tn hr{flex:1;min-width:30px;max-width:80px;border:0;border-top:2px dashed var(--gold)}
@@ -38,4 +37,4 @@ h1,h2,h3{font-family:var(--d);font-weight:400;margin:.2em 0;line-height:1.1;lett
 .bar{position:fixed;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#f7b7cf,#f6c453,#a9b8e6);transform-origin:0 50%;z-index:45}
 .lb>*{animation:pop .45s cubic-bezier(.3,1.4,.5,1)}@keyframes pop{from{opacity:0;scale:.88}}
 .bt:active,.puffy:active{scale:.93}.ph,.card{-webkit-tap-highlight-color:transparent}
-@media(max-width:600px){.s{padding:10vh 16px}.ph{width:min(90%,330px)}.say{right:40px;width:160px}.tl{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 12px}.tl .ph{width:min(100%,240px)}}
+@media(max-width:600px){.s{padding:10vh 16px}.ph{width:min(90%,330px)}.say{right:40px;width:160px}}

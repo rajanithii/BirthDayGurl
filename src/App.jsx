@@ -102,7 +102,7 @@ export default function App() {
       <StaticSection className="s">
         <R><h2 className="wob">Somewhere along the way...</h2><div className="big">making me as an Instagram User....though🙄</div></R>
         <div className="row">{friends.map(d => <Photo key={d.k} d={d} onOpen={setLb} style={d.up ? { marginTop: 30 } : undefined} />)}</div>
-        <R as="p" className="lead">Different days, being watchman and batman.</R>
+        <R as="p" className="lead">Different days, being watchand and batman.</R>
       </StaticSection>
 
       <StaticSection className="s">
